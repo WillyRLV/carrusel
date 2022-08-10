@@ -1,0 +1,51 @@
+h2{
+    text-align: center;
+    padding: 0 0 70px;
+    font-family: lato;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+h2 span{
+    color: #ff6000;
+
+}
+
+.client-area{
+    padding: 150px 0 0;
+}
+.slick-slide {
+    margin: 0 20px;
+
+}
+
+.slick-slide img {
+    width: 100%;
+}
+.slick-list{
+    position: relative;
+    display: block;
+}
+
+.slick-list:focus{
+    outline: none;
+}
+
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-slide img{
+    display: block;
+}
+
+.slick-initialized .slick-slide{
+    display: block;
+}
+
+.slick-loading .slick-slide{
+    visibility: hidden;
+}
